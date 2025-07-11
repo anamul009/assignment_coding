@@ -31,6 +31,15 @@
   border: none;
   padding: 12px 36px;
 }
+.flex{
+    display: flex;
+  justify-content: space-between;
+  align-items: center;  
+}
+.center{
+    text-align: center;
+}
+/* main */
 .bg {
   background-image: url(./Assets/Hero-bg.png);
 }
@@ -39,8 +48,8 @@
 
   font-weight: bolder;
 }
-.header{
-    padding: 50px 150px;
+.header {
+  padding: 50px 150px;
 }
 .navbar {
   display: flex;
@@ -55,7 +64,6 @@
 .btn2 {
   height: 48px;
   width: 174px;
-  
 }
 .btn-container {
   height: 100%;
@@ -71,8 +79,141 @@
   padding-bottom: 36px;
 }
 .container {
-  padding-top: 158px;
-  padding-bottom: 152px;
-  padding-left: 117px;
-  padding-right: 117px;
+    margin: 155px 117px;
+}
+.action {
+  margin: 116px 150px;
+}
+.title1 {
+  font-weight: 700;
+  font-style: bold;
+  font-size: 42px;
+  padding-bottom: 23px;
+}
+.description {
+  font-weight: 400;
+  font-size: 24px;
+  padding-bottom: 23px;
+  color: rgba(37, 36, 50, 0.5);
+}
+.btn3 {
+  font-weight: 700;
+}
+.image {
+  height: 328px;
+  width: 403px;
+  border-radius: 48px;
+}
+
+.users {
+    margin: 116px 150px;
+    padding: 50px 80px;
+    border-radius: 24px;
+}
+.user-title{
+    font-weight: 700;
+    font-style: bold;
+    font-size: 38px;
+    text-align: center;
+    padding-bottom: 50px;
+}
+.user-text{
+    font-size: 80px;
+    font-weight: 700;
+    font-style: bold;
+}
+.user-des{
+    font-size: 20px;
+    font-weight: 400;
+    color: rgba(0, 0, 0, 0.5) ;
+}
+.feedback-title{
+  font-size: 42px;
+  font-weight: 700;
+}
+.user-feedback{
+  background-color: rgba(255, 255, 255, 0.5);
+}
+.user-feedback{
+    margin: 116px 150px;
+    padding: 50px 80px;
+    border-radius: 24px;
+}
+.cards{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.stars{
+  display: flex;
+  gap: 5px;
+}
+.star {
+  font-size: 30px;
+  color: gold;
+  padding-bottom: 24px;
+}
+.card-1{
+  padding: 24px 24px;
+  border-radius: 14px;
+  border: 1px solid #F2EDED;
+}
+.card-2{
+  padding: 24px 24px;
+  border-radius: 14px;
+  border: 1px solid #F2EDED;
+}
+.card-3{
+  padding: 24px 24px;
+  border-radius: 14px;
+  border: 1px solid #F2EDED;
+}
+.card-info{
+  display: flex;
+  gap: 24px;
+}
+
+.card-title{
+  font-size: 24px;
+  font-weight: 600;
+  padding-bottom: 8px;
+}
+.card-description{
+  font-size: 16px;
+  font-weight: 400;
+  padding-bottom: 24px;
+}
+.card-reviewer .date{
+  font-size: 16px;
+  font-weight: 400;
+}
+.date{
+  color: #B3B3B3;
+}
+.dp{
+  border-radius: 50px;
+}
+.focus{
+    margin-left: 151px;
+    margin-right: 151px;
+    padding-left: 71px;
+    padding-right: 71px;
+    padding-bottom: 71px;
+    border-radius: 14px;
+}
+.focus-title{
+  font-size: 50px;
+  font-weight: bold;
+  padding-bottom: 20px;
+}
+.focus-description{
+  font-size: 16px;
+  padding-bottom: 20px;
+  color: rgba(0, 0, 0, 0.5);
+}
+.wc{
+  padding-top: 20px;
+}
+.wc-img{
+  border-radius: 48px;
 }
