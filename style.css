@@ -1,0 +1,78 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+/* shaired style */
+.primary-color {
+  color: #4e47ff;
+}
+.secondary-bg {
+  background-color: rgba(78, 71, 225, 0.1);
+}
+.text-primary {
+  color: #252432;
+}
+.text-center {
+  text-align: center;
+}
+
+.raleway-font {
+  font-family: "Raleway", sans-serif;
+}
+.inter-font {
+  font-family: "Inter", sans-serif;
+}
+.button {
+  border-radius: 10px;
+  background-color: #4e47ff;
+  font-size: 16px;
+  font-weight: bold;
+  color: #ffffff;
+  border: none;
+  padding: 12px 36px;
+}
+.bg {
+  background-image: url(./Assets/Hero-bg.png);
+}
+.logo {
+  font-size: 34px;
+
+  font-weight: bolder;
+}
+.header{
+    padding: 50px 150px;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.btn {
+  height: 48px;
+  width: 132px;
+}
+.btn2 {
+  height: 48px;
+  width: 174px;
+  
+}
+.btn-container {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.title {
+  font-weight: 700;
+  font-style: bold;
+  font-size: 65px;
+  padding-bottom: 36px;
+}
+.container {
+  padding-top: 158px;
+  padding-bottom: 152px;
+  padding-left: 117px;
+  padding-right: 117px;
+}
